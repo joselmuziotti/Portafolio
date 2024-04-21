@@ -1,0 +1,177 @@
+@media screen and (min-width:768px) and (max-width:1023px){
+    /*Presentación*/
+    .titulo h1{
+        font-size: 40px;
+    }
+
+    .titulo h2{
+        font-size: 20px;
+    }
+
+    .logoSimple{
+        width: 320px;
+    }
+    /*Descripción*/
+    .descripcionImg{
+        width: 600px;
+    }
+
+    .descripcionText{
+        font-size: 25px;
+    }
+
+    .subDescripcionText{
+        font-size: 20px;
+    }
+
+    /*Formación*/
+    .formationCard{
+        width: 230px;
+        height: 600px;
+    }
+
+    .formationCardMiddle{
+        width: 240px;
+        height: 650px;
+    }
+
+    /*Contacto*/
+    form{
+        width: 500px;
+    }
+
+}
+
+@media screen and (min-width:1024px){
+    /*encabezado*/
+    .encabezadoFather img{
+        width: 180px;
+    }
+
+    .navegacion li{
+        font-size: 18px;
+    }
+
+    .navegacion li:nth-child(1),
+    .navegacion li:nth-child(2),
+    .navegacion li:nth-child(3),
+    .navegacion li:nth-child(4),
+    .navegacion li:nth-child(5) {
+        display: block;
+    }
+
+    /*presentación*/
+    .intro{
+        margin-top: 150px;
+    }
+
+    .titulo h1{
+        font-size: 45px;
+    }
+
+    .titulo h2{
+        font-size: 25px;
+    }
+
+    .logoSimple{
+        width: 350px;
+    }
+
+    /*descripción*/
+    .descripcionImg{
+        width: 630px;
+    }
+
+    .descripcionText{
+        font-size: 30px;
+    }
+
+    .subDescripcionText{
+        font-size: 25px;
+    }
+
+    /*Skills*/
+    .titleSkills{
+        font-size: 30px;
+    }
+
+    .skillsFather{
+        height: auto;
+        position: relative;
+        bottom: 100px;
+        display: flex;
+        justify-content: space-around;
+        padding: 20px;
+    }
+
+    .cuadroSkillsHobbies{
+        width: 180px;
+        height: 150px;
+    }
+
+    .cuadroSkillsHobbies i{
+        font-size: 55px;
+    }
+    
+    .cuadroSkillsHobbies h2{
+        font-family: 'Montserrat';
+        font-size: 20px;
+        margin: 10px 0px;
+    }
+    
+    .cuadroSkillsHobbies:nth-child(1),
+    .cuadroSkillsHobbies:nth-child(2),
+    .cuadroSkillsHobbies:nth-child(3),
+    .cuadroSkillsHobbies:nth-child(4){
+        border-radius: 10px;
+    }
+    
+    /*Hobbies*/
+    .titleHobbies{
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+
+    .hobbiesFather{
+        justify-content: space-around;
+    }
+
+    /*Proyectos*/
+    .titleProyectos{
+        font-size: 30px;
+        margin-bottom: 60px;
+    }
+
+    /*Formación*/
+    .formationCard{
+        width: 350px;
+        height: 500px;
+    }
+
+    .formationCardMiddle{
+        width: 350px;
+        height: 550px;
+    }
+
+    /*Contacto*/
+    .formulario h1{
+        font-size: 30px;
+    }
+
+    form{
+        width: 500px;
+    }
+
+    form h2{
+        font-size: 25px;
+        margin: 30px;
+    }
+
+    .quotes h2{
+        font-size: 1.8em;
+    }
+
+    form p{
+        font-size: 1.5em;
+    }
+}
